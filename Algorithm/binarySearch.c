@@ -14,6 +14,9 @@ int binarySearch(int arr[], int myStart, int myEnd, int value) {
 		return -1;
 	}
 
+	if (arr[myStart] == value)return myStart;
+	if (arr[myEnd] == value)return myEnd;
+
 	start = myStart;
 	end = myEnd;
 
