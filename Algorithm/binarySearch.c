@@ -20,15 +20,15 @@ int binarySearch(int arr[], int myStart, int myEnd, int value) {
 	start = myStart;
 	end = myEnd;
 
-	while (start + 1 < end) {
+	while (start + 1 <= end) {
 		mid = (start + end) / 2;
 
 		if (arr[mid] == value)return mid;
 		else if (arr[mid] < value) {
-			end = mid;
+			start = mid;
 		}
 		else if (arr[mid] > value) {
-			start = mid;
+			end = mid;
 		}
 
 	}//while
