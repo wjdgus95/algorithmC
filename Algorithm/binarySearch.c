@@ -10,6 +10,8 @@ int binarySearch(int arr[], int myStart, int myEnd, int value) {
 		return -1;
 	}
 
+
+
 	if (arr[myEnd] < value) {
 		return -1;
 	}
