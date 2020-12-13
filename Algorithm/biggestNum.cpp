@@ -22,6 +22,3 @@ string solution(vector<int> numbers)
 	if (Answer[0] == '0') Answer = "0";
 	return Answer;
 }
-
-
-√‚√≥: https://yabmoons.tistory.com/330 [æÂπÆ's Coding World..]
